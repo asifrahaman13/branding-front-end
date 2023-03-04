@@ -1,0 +1,321 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+.nav * {
+  padding: 1rem;
+}
+.push {
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 550px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+  }
+  .push {
+    margin: auto;
+  }
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9)),
+    url("house.jpg");
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 7vw;
+}
+
+.minimal-design * {
+  color: white;
+}
+
+.minimal-design {
+  width: 30%;
+}
+
+.push {
+}
+
+@media only screen and (max-width: 500px) {
+  .experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .experience-body {
+    display: flex;
+    flex-direction: column !important;
+    width: 100vw;
+  }
+
+  .experience-header {
+    padding-left: 5vh;
+  }
+
+  .experience-child {
+    padding: 4vh !important;
+  }
+
+  #design {
+    text-align: left;
+    padding-left: 2vw !important;
+  }
+
+  #strategy {
+    text-align: left;
+    padding-right: 2vw !important;
+  }
+
+  .experience-cards{
+    padding-bottom: 5vh !important;
+  }
+  
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-header {
+  padding-bottom: 5vh;
+}
+
+.experience-header h1 {
+  font-family: "Rowdies", cursive;
+}
+
+.experience-cards {
+  padding: 2vw;
+}
+
+#design {
+  padding-left: 0px;
+}
+
+#strategy {
+  padding-right: 0;
+}
+
+.experience-child {
+  padding: 20vh;
+}
+.experience-card-header {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.learn-more {
+  background-color: black;
+  color: white;
+  padding: 0.8vw;
+  border-style: none;
+}
+
+.learn {
+  color:black;
+  padding: 0.5vw 1.5vw 0.5vw 1.5vw!important;
+  border-style: none;
+}
+
+.brands {
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9)),
+    url("house.jpg");
+}
+
+.stories {
+  padding-bottom: 10vh;
+}
+.first-footer {
+  background-color: aqua;
+  padding: 4vh;
+}
+
+@media only screen and (min-width: 500px) {
+}
+
+.second-footer {
+  background-color: rgb(216, 178, 223);
+  height: 15vh;
+}
+.brand-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.brand-headers {
+  color: white;
+  margin-bottom: 8vh;
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands-container {
+  width: 80vw;
+}
+
+.brand-body {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.brand-body * {
+  color: white;
+}
+
+.stories {
+  display: flex;
+  justify-content: center;
+}
+
+.stories-container {
+  width: 75%;
+  padding: 10vh;
+}
+
+.stories-header {
+  margin-bottom: 10vh;
+}
+
+.stories-heading {
+  font-size: 700;
+  font-size: 2rem;
+  font-family: 'Rowdies', cursive;
+}
+
+.stories-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+  .stories-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .stories-body * {
+    width: 100% !important;
+  }
+
+  .stories-container {
+    width: 100%;
+    padding: 2vh;
+  }
+}
+
+.body-first {
+  width: 45%;
+}
+
+.body-second {
+  width: 45%;
+}
+
+.body-image {
+  background: no-repeat 100% url("house.jpg");
+  height: 50vh;
+  background-size: 100% 100%;
+}
+
+.stories-body * .body-description-header {
+  padding-top: 3vh;
+}
+
+.stories-body * .body-description-date {
+  padding-top: 1vh;
+}
+
+.first-footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-footer {
+  background: linear-gradient(
+    to right,
+    rgb(24, 89, 143),
+    rgba(92, 143, 219, 0.9)
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-footer-container button {
+  border-style: none;
+  padding: 0.6vw;
+}
+
+.second-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9)),
+    url("house.jpg");
+}
+
+.second-footer-container {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-first {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.second-footer * {
+  padding: 0.2vh;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .brand-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+.minimal-design-heading {
+  font-family: "Rowdies", cursive;
+}
+
+.brand-heading {
+  font-family: "Rowdies", cursive;
+}
