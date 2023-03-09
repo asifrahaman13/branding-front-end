@@ -10,4 +10,6 @@ function App() {
   );
 }
 
+// A comment is added here
+
 export default App;
